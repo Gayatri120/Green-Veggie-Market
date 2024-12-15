@@ -1,0 +1,107 @@
+/* General Reset */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Header Styling */
+  header {
+    background-color: #15bb57;
+    color: rgb(22, 20, 20);
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  header h1 {
+    margin: 1;
+  }
+  
+  nav {
+    background-color: #78d738;
+    padding: 10px 0;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+  
+  nav a {
+    color: rgb(238, 248, 232);
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Main Content */
+  main {
+    padding: 50px;
+  }
+  
+  section {
+    margin-bottom: 50px;
+    text-align: center;
+  }
+  
+  .product {
+    display: inline-block;
+    margin-top: 60px;
+    text-align: center;
+  }
+  
+  .product img {
+    width: 200px;
+    height: 200px;
+    border-radius: 9px;
+    margin-bottom: 10px;
+    
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  form label {
+    margin: 10px 0 10px;
+  }
+  
+  form input, form textarea, form button {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #aade48;
+    border-radius: 5px;
+  }
+  
+  form button {
+    background-color: #2ecc71;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  form button:hover {
+    background-color: #27df73;
+  }
+  
+  /* Footer Styling */
+  footer {
+    background-color: #2ecc71;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+  }
+  
